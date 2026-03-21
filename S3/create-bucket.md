@@ -10,7 +10,7 @@ aws s3 mb s3://nithya-aws-preparation-2026
 ## 🌍 Region-specific command
 
 aws s3api create-bucket \
---bucket nithya-aws-preparation-2026 \
+--bucket nithya-aws-preparation-2026-germany \
 --region ap-south-1 \
 --create-bucket-configuration LocationConstraint=ap-south-1
 
