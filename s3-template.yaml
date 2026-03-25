@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: S3 Bucket with Versioning
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: nithya-cf-bucket-12345
+      VersioningConfiguration:
+        Status: Enabled
