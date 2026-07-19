@@ -5,3 +5,5 @@ aws s3 cp file.txt s3://nithya-aws-preparation-2026-germany
 
 ## Verify
 aws s3 ls s3://nithya-aws-preparation-2026-germany
+
+
